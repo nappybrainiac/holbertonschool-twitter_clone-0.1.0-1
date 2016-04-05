@@ -1,4 +1,1 @@
-function ajaxGet(url,onSuccess){var buttonId=document.getElementById("button-load");buttonId.disabled="true";buttonId.style.cursor="text";buttonId.style.background="#CDFFCB";xmlhttp=new XMLHttpRequest();xmlhttp.onreadystatechange=function()
-																									       {if(xmlhttp.readyState==4&&xmlhttp.status==200)
-																										       {onSuccess(xmlhttp.responseText);reply();}}
-    xmlhttp.open('GET',url,true);setTimeout(function(){xmlhttp.send();buttonId.disabled=false;buttonId.style.cursor="default";},2000);}
+function ajaxGet(t,e){var l=document.getElementById("button-load");l.disabled="true",l.style.cursor="text",l.style.background="#CDFFCB",xmlhttp=new XMLHttpRequest,xmlhttp.onreadystatechange=function(){4==xmlhttp.readyState&&200==xmlhttp.status&&(e(xmlhttp.responseText),reply())},xmlhttp.open("GET",t,!0),setTimeout(function(){xmlhttp.send(),l.disabled=!1,l.style.cursor="default"},2e3)}

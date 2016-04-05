@@ -1,2 +1,1 @@
-document.addEventListener("DOMContentLoaded",reply)
-    function reply(){var reply=document.querySelectorAll('.button-reply');var r=0,r_length=reply.length;for(r;r<r_length;r++){reply[r].addEventListener('click',function(){var parent=this.closest('.post-status-button-div');var post=this.parentNode.nextElementSibling;post.toggle();parent.toggle();});}};
+function reply(){var t=document.querySelectorAll(".button-reply"),e=0,n=t.length;for(e;n>e;e++)t[e].addEventListener("click",function(){var t=this.closest(".post-status-button-div"),e=this.parentNode.nextElementSibling;e.toggle(),t.toggle()})}document.addEventListener("DOMContentLoaded",reply);

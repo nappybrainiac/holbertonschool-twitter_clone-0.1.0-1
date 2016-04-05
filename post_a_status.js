@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded",function(){document.getElementById("post-status-btn").addEventListener("click",postpre);function postpre(){var elem=document.getElementById('statuspost');elem.toggle();var elem=document.getElementById('post-status-btn');elem.toggle();}});
+document.addEventListener("DOMContentLoaded",function(){function t(){var t=document.getElementById("statuspost");t.toggle();var t=document.getElementById("post-status-btn");t.toggle()}document.getElementById("post-status-btn").addEventListener("click",t)});

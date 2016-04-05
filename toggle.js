@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded",function(){HTMLElement.prototype.toggle=function(){if(this.classList.contains("hidden")){this.classList.remove('hidden');}else{this.classList.add('hidden');}}});
+document.addEventListener("DOMContentLoaded",function(){HTMLElement.prototype.toggle=function(){this.classList.contains("hidden")?this.classList.remove("hidden"):this.classList.add("hidden")}});
