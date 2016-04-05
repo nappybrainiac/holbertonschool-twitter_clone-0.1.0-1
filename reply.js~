@@ -1,2 +1,0 @@
-document.addEventListener("DOMContentLoaded",reply)
-    function reply(){var reply=document.querySelectorAll('.button-reply');var r=0,r_length=reply.length;for(r;r<r_length;r++){reply[r].addEventListener('click',function(){var parent=this.closest('.post-status-button-div');var post=this.parentNode.nextElementSibling;post.toggle();parent.toggle();});}};
